@@ -1,8 +1,5 @@
-## 1
-Nunca misturar cálculos numéricos com plots. Escreva códigos de cálculos em arquivos script .py que salvem os dados em arquivos numpy npz e plots em arquivos jupyter .ipynb
+# Instrucoes do projeto
 
-## 2
-Manter o arquivo report.md com a teoria atualizada e um results.md com ilustrações de resultados
-
-## 3
-Sempre escrever docstrings referenciado equações da teoria do report
+- Mantenha calculos numericos em scripts `.py`, separados dos notebooks usados para visualizacao e plots.
+- Salve os dados produzidos pelos scripts em arquivos `.npz`; notebooks devem carregar esses dados para gerar plots, sem repetir a simulacao.
+- Ao documentar funcoes que implementam equacoes, inclua nas docstrings a referencia ao identificador da equacao em `docs/report.md`.
