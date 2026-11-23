@@ -1,5 +1,5 @@
 ---
-name: sci-dos
+name: sci-docs
 description: Atualiza a documentacao cientifica do projeto Lattice-Boltzmann. Use quando teoria, equacoes, hipoteses, metodos ou resultados da simulacao forem alterados ou precisarem ser documentados.
 ---
 
